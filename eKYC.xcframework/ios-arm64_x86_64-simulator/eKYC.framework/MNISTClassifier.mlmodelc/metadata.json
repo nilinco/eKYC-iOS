@@ -1,0 +1,80 @@
+[
+  {
+    "shortDescription" : "Image based digit recognition (MNIST)",
+    "metadataOutputVersion" : "3.0",
+    "outputSchema" : [
+      {
+        "isOptional" : "0",
+        "keyType" : "String",
+        "formattedType" : "Dictionary (String → Double)",
+        "type" : "Dictionary",
+        "name" : "output",
+        "shortDescription" : "Probability of each digit"
+      },
+      {
+        "isOptional" : "0",
+        "formattedType" : "String",
+        "type" : "String",
+        "name" : "classLabel",
+        "shortDescription" : "Labels of digits"
+      }
+    ],
+    "version" : "",
+    "modelParameters" : [
+
+    ],
+    "author" : "Apple",
+    "specificationVersion" : 1,
+    "license" : "BSD-3",
+    "isUpdatable" : "0",
+    "availability" : {
+      "macOS" : "10.13",
+      "tvOS" : "11.0",
+      "watchOS" : "4.0",
+      "iOS" : "11.0",
+      "macCatalyst" : "11.0"
+    },
+    "modelType" : {
+      "name" : "MLModelType_neuralNetworkClassifier"
+    },
+    "inputSchema" : [
+      {
+        "height" : "28",
+        "colorspace" : "Grayscale",
+        "isOptional" : "0",
+        "width" : "28",
+        "isColor" : "0",
+        "formattedType" : "Image (Grayscale 28 × 28)",
+        "hasSizeFlexibility" : "0",
+        "type" : "Image",
+        "shortDescription" : "Input image",
+        "name" : "imageInput"
+      }
+    ],
+    "classLabels" : [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "generatedClassName" : "MNISTClassifier",
+    "userDefinedMetadata" : {
+
+    },
+    "neuralNetworkLayerTypeHistogram" : {
+      "PoolingMax" : 1,
+      "Convolution" : 1,
+      "InnerProduct" : 2,
+      "Softmax" : 1,
+      "ActivationReLU" : 2,
+      "Flatten" : 1
+    },
+    "method" : "predict"
+  }
+]
