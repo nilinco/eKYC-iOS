@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-  spec.name    = 'eKYC'
+  spec.name    = 'NiliN-eKYC'
   spec.version = '1.0.0'
   spec.license = {
       :type => 'commercial',
@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
      'Mahdi Mahjoobi' => 'mahdi.m@email.com'
   }
   spec.summary       = 'SDK for card scanning and liveness detection. Contains native iOS SDK, code samples and documentation.'
-  spec.source        = { :git => 'https://github.com/nilinco/eKYC-iOS.git', :tag => 'v1.0.0' }
+  spec.source        = { :git => 'https://github.com/nilinco/eKYC-iOS.git', :tag => '1.0.0' }
   spec.module_name   = 'eKYC'
   spec.swift_version = '5.0'
   spec.platform      = :ios
