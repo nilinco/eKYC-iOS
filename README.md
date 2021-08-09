@@ -18,13 +18,6 @@ eKYC is:
 
 - [Requirements](#requirements)
 - [Quick Start](#quick-start)
-- [Troubleshooting](#troubleshooting)
-    - [Integration problems](#troubleshooting-integration-problems)
-    - [SDK problems](#troubleshooting-sdk-problems)
-        - [Licencing problems](#troubleshooting-licensing-problems)
-        - [Other problems](#troubleshooting-other-problems)
-    - [Frequently asked questions and known problems](#troubleshooting-faq)
-- [Size Report](#size-report)
 - [Additional info](#info)
 
 
