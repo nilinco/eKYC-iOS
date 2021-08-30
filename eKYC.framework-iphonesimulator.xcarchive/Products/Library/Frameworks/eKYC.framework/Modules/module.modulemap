@@ -1,0 +1,11 @@
+framework module eKYC {
+  umbrella header "eKYC.h"
+
+  export *
+  module * { export * }
+}
+
+module eKYC.Swift {
+    header "eKYC-Swift.h"
+    requires objc
+}

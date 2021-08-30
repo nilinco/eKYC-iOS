@@ -179,6 +179,7 @@ public class EncryptedMessage : eKYC.Message {
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class eKYCManager {
+  public static let shared: eKYC.eKYCManager
   public func setupKey(base64Key: Swift.String?)
   @objc deinit
 }
