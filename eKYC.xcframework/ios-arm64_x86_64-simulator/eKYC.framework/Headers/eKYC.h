@@ -6,6 +6,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "SwiftyRSA.h"
+#import "NSData+SHA.h"
 
 //! Project version number for eKYC.
 FOUNDATION_EXPORT double eKYCVersionNumber;
